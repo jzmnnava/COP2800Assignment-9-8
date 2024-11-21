@@ -61,7 +61,6 @@ public class Fan {
   }
 
   // Output
-  @Override
   public String toString() {
       if (on) {
           return "Fan speed: " + getSpeed() + ", color: " + color + ", radius: " + radius;
